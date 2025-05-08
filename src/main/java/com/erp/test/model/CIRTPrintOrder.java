@@ -6,6 +6,7 @@ import java.util.Date;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name="CIRTPRINTORDER")
 public class CIRTPrintOrder {
 	
 	    @Id
